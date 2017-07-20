@@ -1,5 +1,8 @@
 @namespace html url(http://www.w3.org/1999/xhtml);
 
+/* WHITELIST HERE */
+@-moz-document url-prefix("about:"), regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") {
+
 /* CHANGE LINK COLOR HERE */
 a:link{
   color: #65c8f2 !important; 
@@ -30,4 +33,27 @@ img {
   border-color : #FFFFFF !important ;
   box-shadow: none !important;
 }
+  
+/* Fix some content backgrounds */
+li,a {
+  background-color: transparent!important;
+}
 
+div {
+  background-color:transparent!important;
+}
+
+}
+
+/* FIREFOX BARS */
+@-moz-document url-prefix("chrome:") {
+
+/* Make everything black */
+/*
+* {
+  color: #FFFFFF !important;
+  background-color: #000000 !important;
+}
+*/
+
+}
