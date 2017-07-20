@@ -1,5 +1,14 @@
 @namespace html url(http://www.w3.org/1999/xhtml);
 
+/* Make everything black */
+* {
+  color: #FFFFFF !important;
+  background-color: #000000 !important;
+}
 
+/* Transparent image's background color */
+img {
+  background-color: #777777 !important;
+}
 
 
