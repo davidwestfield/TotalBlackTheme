@@ -1,65 +1,76 @@
 @namespace html url(http://www.w3.org/1999/xhtml);
 
 /* WHITELIST HERE */
-@-moz-document url-prefix("about:"), regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") {
+@-moz-document url-prefix("about:"),
+regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") {
+  
+    /* CHANGE LINK COLOR HERE */
+    a:link {
+        color: #65c8f2 !important;
+        text-decoration: none !important;
+        border: 0 !important;
+    }
+  
+    /* CHANGE VISTED LINK COLOR HERE */
+    a:visited {
+        color: #4656ba !important;
+        text-decoration: none !important;
+        border: 0 !important
+    }
 
-/* CHANGE LINK COLOR HERE */
-a:link{
-  color: #65c8f2 !important; 
-  text-decoration: none !important;
-  border: 0 !important;
+    /* Make everything black */
+    * {
+        color: #FFFFFF !important;
+        background-color: #000000 !important;
+        border-color: #AAAAAA !important;
+        border-width: 1px !important;
+    }
+  
+    /* Transparent image's background color */
+    img {
+        background-color: #AAAAAA !important;
+    }
+  
+    /* Fix some content backgrounds */
+    a {
+        background-color: transparent!important;
+    }
+  
+    div {
+        color: #AAAAAA !important;
+        background-color: transparent!important;
+        /* background-image: none !important; */
+    }
+  
+    input,
+    button {
+        border: solid !important;
+        color: #AAAAAA !important;
+        border-color: #AAAAAA !important;
+        border-width: 1px !important;
+    }
 }
 
-/* CHANGE VISTED LINK COLOR HERE */
-a:visited{
-  color: #4656ba !important;
-  text-decoration: none !important;
-  border: 0 !important
-}
 
-/* Make everything black */
-* {
-  color: #FFFFFF !important;
-  background-color: #000000 !important;
-  border-color: #AAAAAA !important;
-  border-width: 1px !important;
-}
-  
-/* Transparent image's background color */
-img {
-  background-color: #AAAAAA !important;
-}
-  
-/* Fix some content backgrounds */
-a {
-  background-color: transparent!important;
-}
-  
-div {
-  color: #AAAAAA !important;
-  background-color: transparent!important;
-  background-image: none!important;
-}
-  
-input, button {
-    border: solid !important;
-    color: #AAAAAA !important;
-    border-color: #AAAAAA !important;
-    border-width: 1px !important;
-}
-  
-}
-  
-/* FIREFOX BARS */
+/* FIREFOX BROWSER */
 @-moz-document url-prefix("chrome:") {
-
-/* Make everything black */
-/*
-* {
-  color: #FFFFFF !important;
-  background-color: #222222 !important;
-}
-*/
   
-/* Per-Site fixes */
+    browser {
+        background-color: #000 !important;
+    }
+  
+    /* Status bar */
+    .statuspanel-label {
+        background: black!important;
+        color: white!important
+    }
+  
+    /* Context menu */
+    menupopup#contentAreaContextMenu .scrollbox-innerbox {
+        background-color: #000000 !important;
+        color: #FFFFFF !important;
+    }
+}
 
+
+/* Per-Site fixes */
