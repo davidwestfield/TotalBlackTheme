@@ -14,39 +14,42 @@ a:link{
 a:visited{
   color: #4656ba !important;
   text-decoration: none !important;
-  border: 0 !important;
+  border: 0 !important
 }
 
 /* Make everything black */
 * {
   color: #FFFFFF !important;
   background-color: #000000 !important;
-  border-color: #999999 !important;
+  border-color: #AAAAAA !important;
+  border-width: 1px !important;
 }
   
-
 /* Transparent image's background color */
 img {
-  background-color: #999999 !important;
-}
-
-/* Fixes bad coloring on some sites */
-div form span, article, body, tbody, div:not([class*="ytp"]):not(.html5-video-player):not([id*="vp-view"]):not(#infosav):not(.noDrag):not(.hoverMask):not(._4-oi):not(._58gh):not(.iw):not(#headswf):not(._4o04):not(._35za):not(._156p):not(.actionsDropdown):not(._6-e):not(.shadow-wrapper):not([id*="jwplayer"]):not(.featured-image-wrapper):not(#row):not(._28xr):not(._3jk):not(#fej_fejlec):not(.lb-nav):not(.O):not([style*="1"]):not(.site-header):not(.postionPic):not(.hL):not(._58gk):not(#pages_actions_pagelet):not(._58gj ):not(.fbTimelineProfilePicSelector), ._3okg:before {
-  background-color : #000000 !important ;
+  background-color: #AAAAAA !important;
 }
   
 /* Fix some content backgrounds */
-a, div, li {
+a {
   background-color: transparent!important;
 }
-
-input {
-    border: solid !important;
-    border-width: 1px !important;
-    border-color: #999999 !important;
-    color: #999999 !important;
+  
+div {
+  color: #AAAAAA !important;
+  background-color: transparent!important;
+  background-image: none!important;
 }
-
+  
+input, button {
+    border: solid !important;
+    color: #AAAAAA !important;
+    border-color: #AAAAAA !important;
+    border-width: 1px !important;
+}
+  
+}
+  
 /* FIREFOX BARS */
 @-moz-document url-prefix("chrome:") {
 
@@ -54,9 +57,9 @@ input {
 /*
 * {
   color: #FFFFFF !important;
-  background-color: #000000 !important;
+  background-color: #222222 !important;
 }
 */
-
-}
+  
+/* Per-Site fixes */
 
