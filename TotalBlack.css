@@ -1,5 +1,19 @@
 @namespace html url(http://www.w3.org/1999/xhtml);
 
+/* CHANGE LINK COLOR HERE */
+a:link{
+  color: #65c8f2 !important; 
+  text-decoration: none !important;
+  border: 0 !important;
+}
+
+/* CHANGE VISTED LINK COLOR HERE */
+a:visited{
+  color: #4656ba !important;
+  text-decoration: none !important;
+  border: 0 !important;
+}
+
 /* Make everything black */
 * {
   color: #FFFFFF !important;
@@ -8,7 +22,12 @@
 
 /* Transparent image's background color */
 img {
-  background-color: #777777 !important;
+  background-color: #999999 !important;
 }
 
+#content div form span, article, body, tbody, div:not([class*="ytp"]):not(.html5-video-player):not([id*="vp-view"]):not(#infosav):not(.noDrag):not(.hoverMask):not(._4-oi):not(._58gh):not(.iw):not(#headswf):not(._4o04):not(._35za):not(._156p):not(.actionsDropdown):not(._6-e):not(.shadow-wrapper):not([id*="jwplayer"]):not(.featured-image-wrapper):not(#row):not(._28xr):not(._3jk):not(#fej_fejlec):not(.lb-nav):not(.O):not([style*="1"]):not(.site-header):not(.postionPic):not(.hL):not(._58gk):not(#pages_actions_pagelet):not(._58gj ):not(.fbTimelineProfilePicSelector), ._3okg:before {
+  background-color : #000000 !important ;
+  border-color : #FFFFFF !important ;
+  box-shadow: none !important;
+}
 
