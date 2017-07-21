@@ -17,58 +17,71 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         text-decoration: none !important;
         border: 0 !important
     }
-
-    /* Make everything black */
-    * {
-        color: #FFFFFF !important;
-        background-color: #000000 !important;
-        border-color: #AAAAAA !important;
-        border-width: 1px !important;
-    }
   
-    /* Transparent image's background color */
-    img {
-        background-color: #AAAAAA !important;
-    }
-  
-    /* Fix some content backgrounds */
+      /* Fix some link's backgrounds */
     a {
         background-color: transparent!important;
     }
-  
-    div {
-        color: #AAAAAA !important;
-        background-color: transparent!important;
-        /* background-image: none !important; */
+
+    /* Make everything black, make borders grey */
+    * {
+        color: #fff !important;
+        background-color: #000 !important;
+        border-color: #999 !important;
+        border-width: 1px !important;
+        outline-color: #999 !important;
+        text-shadow: none !important;
+        box-shadow: none !important;
     }
   
+    /* Background color for transparent images */
+    img {
+        background-color: #999 !important;
+    }
+  
+    /* Make input and buttons more visible */
     input,
     button {
         border: solid !important;
-        color: #AAAAAA !important;
-        border-color: #AAAAAA !important;
+        color: #999 !important;
+        border-color: #666 !important;
         border-width: 1px !important;
     }
+  
+    
+    /* div {
+        color: #AAAAAA !important;
+        background-color: transparent!important;
+        background-image: none !important;
+      
+    } */
+  
+    /* span {
+        color: #AAAAAA !important;
+        background-color: transparent!important;
+        background-image: none !important;
+    } */
 }
 
 
 /* FIREFOX BROWSER */
 @-moz-document url-prefix("chrome:") {
   
+    /* Browser's background */
     browser {
         background-color: #000 !important;
     }
   
-    /* Status bar */
+    /* Window that pops up when you hover over links */
     .statuspanel-label {
-        background: black!important;
-        color: white!important
+        background: #000!important;
+        color: #fff!important
     }
   
     /* Context menu */
     menupopup#contentAreaContextMenu .scrollbox-innerbox {
-        background-color: #000000 !important;
-        color: #FFFFFF !important;
+        background-color: #000 !important;
+        color: #fff !important;
     }
 }
 
