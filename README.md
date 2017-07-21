@@ -1,13 +1,9 @@
 # TotalBlackTheme
 
 Teaching myself CSS by making a global theme. Tested on Linux
-with Firefox 54 running compact dark theme.
-
-The goal is to run over the internet with a paintbrush: black
-out uncessary information while making important data more
-vibrant. I try to retain valuable content like 
-buttons/input fields, but sometimes things get covered up.
-Global theme downsides ¯\(ツ)/¯
+with Firefox 54 running compact dark theme. The goal is to run
+over the internet with a paintbrush: black out uncessary
+information while making important data more vibrant. 
 
 TODO:
 
@@ -20,9 +16,10 @@ TODO:
 - Volume slider hard to see (facebook, youtube)
 - Google docs upper bar hard to read
 - https://www.w3schools.com/css/css_background.asp white background
+- http://www.eastbaytimes.com/ white background
 - Improve context menu colors
-- Amazon hard to read
-- Border on drop down menus
+- Amazon hard to read sidebar
+- Border on drop down menus (google images, videos, news tabs)
 - Don't effect pdfs
 - Facebook cover photos and photo viewer photos black
 - Sometimes highlighting blacks out all text

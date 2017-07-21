@@ -6,14 +6,14 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
   
     /* CHANGE LINK COLOR HERE */
     a:link {
-        color: #65c8f2 !important;
+        color: #3cf !important;
         text-decoration: none !important;
         border: 0 !important;
     }
   
     /* CHANGE VISTED LINK COLOR HERE */
     a:visited {
-        color: #4656ba !important;
+        color: #55b !important;
         text-decoration: none !important;
         border: 0 !important
     }
@@ -24,27 +24,33 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
     }
 
     /* Make everything black, make borders grey */
-    * {
+    *, ::after, ::before {
         color: #fff !important;
         background-color: #000 !important;
-        border-color: #999 !important;
+        /* background-color: transparent !important; */
+        border-color: #555 !important;
         border-width: 1px !important;
-        outline-color: #999 !important;
+        outline-color: #555 !important;
         text-shadow: none !important;
         box-shadow: none !important;
+        -moz-box-shadow: none !important;
+    }
+    
+     ::after, ::before {
+        background-color: transparent !important;
     }
   
     /* Background color for transparent images */
     img {
-        background-color: #999 !important;
+        background-color: #AAA !important;
     }
   
     /* Make input and buttons more visible */
     input,
     button {
+        color: #777 !important;
         border: solid !important;
-        color: #999 !important;
-        border-color: #666 !important;
+        border-color: #555 !important;
         border-width: 1px !important;
     }
   
