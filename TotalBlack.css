@@ -42,7 +42,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
   
     /* Background color for transparent images */
     img {
-        background-color: #AAA !important;
+        background-color: #DDD !important;
     }
     
     /* Increase input visibility */
@@ -52,19 +52,12 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         border-color: #555 !important;
         border-width: 1px !important;
     }
-
-    div {
+      
+    /* Retains some content */
+    div:not([id*="image"]):not([class*="button"]):not([role*="button"]):not([id*="bar"]):not([id*="head"]):not([class*="drop"]):not([class*="menu"]):not([class*="Flyout"]):not([class*="dialog"]):not([class*="float"]):not([class*="window"]):not([class*="lift"]):not([class*="bar"]):not([role*="banner"]):not([role*="bubble"]):not([role*="hover"]):not([role*="dialog"]):not([class*="grip"]):not([class*="flyout"]) {
         background-color: transparent!important;
         background-image: none !important;
     } 
-    
-    /* Makes menu backgrounds not transparent */
-    div[class*="drop"], div[class*="menu"], div[class*="Flyout"], div[class*="dialog"],
-    div[class*="float"], div[class*="window"], div[class*="lift"], div[class*="bar"],
-    div[role*="banner"], div[role*="bubble"], div[role*="hover"], div[role*="dialog"], 
-    div[class*="grip"], div[class*="flyout"] {
-        background-color: black !important;
-    }
 }
 
 

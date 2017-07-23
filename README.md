@@ -11,15 +11,11 @@ TODO:
 
 - Contextual background information missing (eg: Reddit logo)
 - Different color on firefox bars and drop down windows
-- Improve youtube theme (missing likes, emojis in description,
-        no play bar)
+- Missing icons/images (facebook bar, youtube buttons, google maps
+        buttons/images, google upper bar)
 - Improve general color theme
 - Volume slider hard to see (facebook, youtube)
-- Google docs upper bar hard to read
-- https://www.w3schools.com/css/css_background.asp white background
-- http://www.eastbaytimes.com/ white background
 - Improve context menu colors
 - Some menus are transparent
 - Don't effect pdfs
 - Sometimes highlighting blacks out all text
-- Some images lost on google maps
