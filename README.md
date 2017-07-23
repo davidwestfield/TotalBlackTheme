@@ -11,7 +11,6 @@ TODO:
 
 - Contextual background information missing (eg: Reddit logo)
 - Different color on firefox bars and drop down windows
-- Hue shift all but images for consistent color theme?
 - Improve youtube theme (missing likes, emojis in description,
         no play bar)
 - Improve general color theme
@@ -23,6 +22,4 @@ TODO:
 - Some menus are transparent
 - Don't effect pdfs
 - Sometimes highlighting blacks out all text
-- White bars wikipedia.org
-- Hue shift some div elements or remove backgroung image
 - Some images lost on google maps

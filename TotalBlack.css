@@ -5,7 +5,7 @@
 regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") {
   
     /* CHANGE LINK COLOR HERE */
-    #sites-chrome-everything a, a:link, a[role="menu"], a[role="menu"] span, a:link * {
+    a:link * {
         color: #3cf !important;
         text-decoration: none !important;
         border: 0 !important;
@@ -52,17 +52,17 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         border-color: #555 !important;
         border-width: 1px !important;
     }
-    
-    /* Needs an inverter filter for background-image? - YES LOST DATA */
+
     div {
         background-color: transparent!important;
-        /* background-image: none !important; */
+        background-image: none !important;
     } 
-   
+    
     /* Makes menu backgrounds not transparent */
     div[class*="drop"], div[class*="menu"], div[class*="Flyout"], div[class*="dialog"],
     div[class*="float"], div[class*="window"], div[class*="lift"], div[class*="bar"],
-    div[role*="banner"], div[role*="bubble"], div[role*="hover"], div[role*="dialog"] {
+    div[role*="banner"], div[role*="bubble"], div[role*="hover"], div[role*="dialog"], 
+    div[class*="grip"], div[class*="flyout"] {
         background-color: black !important;
     }
 }
