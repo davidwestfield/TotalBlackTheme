@@ -18,7 +18,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         border: 0 !important
     }
   
-      /* Fix some link's backgrounds */
+    /* Fix some link's backgrounds */
     a {
         background-color: transparent!important;
     }
@@ -27,9 +27,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
     *, ::after, ::before {
         color: #fff !important;
         background-color: #000 !important;
-        /* background-color: transparent !important; */
         border-color: #555 !important;
-        border-width: 1px !important;
         outline-color: #555 !important;
         text-shadow: none !important;
         box-shadow: none !important;
@@ -45,26 +43,31 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         background-color: #AAA !important;
     }
   
-    /* Make input and buttons more visible */
-    input,
-    button {
+    /* Increase input visibility */
+    input {
         color: #777 !important;
         border: solid !important;
         border-color: #555 !important;
         border-width: 1px !important;
     }
-  
+    
+    /* Needs an inverter filter for background-image? - YES LOST DATA */
     div {
         color: #AAAAAA !important;
         background-color: transparent!important;
         /* background-image: none !important; */
+    } 
+   
+    /* Makes menu backgrounds not transparent */
+    div[class*="drop"], div[class*="menu"], div[class*="Flyout"], div[class*="dialog"], div[class*="float"], div[class*="window"], div[class*="lift"], div[class*="bar"], div[role*="banner"]  {
+        background-color: black !important;
     }
-  
-    /* span {
-        color: #AAAAAA !important;
+
+    /*
+    span {
         background-color: transparent!important;
-        background-image: none !important;
-    } */
+    }
+    */
 }
 
 

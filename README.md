@@ -21,9 +21,9 @@ TODO:
 - http://www.eastbaytimes.com/ white background
 - Improve context menu colors
 - Amazon hard to read sidebar
-- Some menus transparent
-- Border on drop down menus (google images, videos, news tabs)
+- Some menus are transparent
 - Don't effect pdfs
 - Sometimes highlighting blacks out all text
 - White bars wikipedia.org
 - Hue shift some div elements or remove backgroung image
+- Some images lost on google maps
