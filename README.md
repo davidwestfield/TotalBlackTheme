@@ -20,7 +20,6 @@ TODO:
 - https://www.w3schools.com/css/css_background.asp white background
 - http://www.eastbaytimes.com/ white background
 - Improve context menu colors
-- Amazon hard to read sidebar
 - Some menus are transparent
 - Don't effect pdfs
 - Sometimes highlighting blacks out all text

@@ -5,10 +5,17 @@
 regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") {
   
     /* CHANGE LINK COLOR HERE */
-    a:link {
+    #sites-chrome-everything a, a:link, a[role="menu"], a[role="menu"] span, a:link * {
         color: #3cf !important;
         text-decoration: none !important;
         border: 0 !important;
+    }
+    
+        /* CHANGE VISTED LINK COLOR HERE */
+    a:link {
+        color: #3cf !important;
+        text-decoration: none !important;
+        border: 0 !important
     }
   
     /* CHANGE VISTED LINK COLOR HERE */
@@ -18,14 +25,9 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         border: 0 !important
     }
   
-    /* Fix some link's backgrounds */
-    a {
-        background-color: transparent!important;
-    }
-
     /* Make everything black, make borders grey */
     *, ::after, ::before {
-        color: #fff !important;
+        color: #eee !important;
         background-color: #000 !important;
         border-color: #555 !important;
         outline-color: #555 !important;
@@ -33,8 +35,8 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         box-shadow: none !important;
         -moz-box-shadow: none !important;
     }
-    
-     ::after, ::before {
+   
+     a, ::after, ::before {
         background-color: transparent !important;
     }
   
@@ -42,7 +44,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
     img {
         background-color: #AAA !important;
     }
-  
+    
     /* Increase input visibility */
     input {
         color: #777 !important;
@@ -53,21 +55,16 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
     
     /* Needs an inverter filter for background-image? - YES LOST DATA */
     div {
-        color: #AAAAAA !important;
         background-color: transparent!important;
         /* background-image: none !important; */
     } 
    
     /* Makes menu backgrounds not transparent */
-    div[class*="drop"], div[class*="menu"], div[class*="Flyout"], div[class*="dialog"], div[class*="float"], div[class*="window"], div[class*="lift"], div[class*="bar"], div[role*="banner"]  {
+    div[class*="drop"], div[class*="menu"], div[class*="Flyout"], div[class*="dialog"],
+    div[class*="float"], div[class*="window"], div[class*="lift"], div[class*="bar"],
+    div[role*="banner"], div[role*="bubble"], div[role*="hover"], div[role*="dialog"] {
         background-color: black !important;
     }
-
-    /*
-    span {
-        background-color: transparent!important;
-    }
-    */
 }
 
 
@@ -82,13 +79,13 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
     /* Window that pops up when you hover over links */
     .statuspanel-label {
         background: #000!important;
-        color: #fff!important
+        color: #eee !important
     }
   
     /* Context menu */
     menupopup#contentAreaContextMenu .scrollbox-innerbox {
         background-color: #000 !important;
-        color: #fff !important;
+        color: #eee !important;
     }
 }
 
