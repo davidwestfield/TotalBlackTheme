@@ -54,13 +54,11 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         border-width: 1px !important;
     }
   
-    
-    /* div {
+    div {
         color: #AAAAAA !important;
         background-color: transparent!important;
-        background-image: none !important;
-      
-    } */
+        /* background-image: none !important; */
+    }
   
     /* span {
         color: #AAAAAA !important;
