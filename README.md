@@ -17,5 +17,4 @@ TODO:
 - Volume slider hard to see (facebook, youtube)
 - Improve context menu colors
 - Some menus are transparent
-- Don't effect pdfs
 - Sometimes highlighting blacks out all text

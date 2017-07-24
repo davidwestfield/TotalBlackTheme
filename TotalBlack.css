@@ -36,7 +36,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         -moz-box-shadow: none !important;
     }
    
-     a, ::after, ::before {
+    a, section, ::after, ::before {
         background-color: transparent !important;
     }
   
@@ -58,11 +58,13 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         color: #777 !important;
     }
     
-    /* Retains some content */
-       div:not([id*="image"]):not([class*="button"]):not([role*="button"]):not([id*="bar"]):not([id*="head"]):not([class*="drop"]):not([class*="menu"]):not([class*="Flyout"]):not([class*="dialog"]):not([class*="float"]):not([class*="window"]):not([class*="lift"]):not([class*="bar"]):not([role*="banner"]):not([role*="bubble"]):not([role*="hover"]):not([role*="dialog"]):not([class*="grip"]):not([class*="flyout"]):not([class*="btn"]) {
+    /* Remove unecessary content */
+div:not([id*="image"]):not([class*="button"]):not([role*="button"]):not([id*="bar"]):not([id*="head"]):not([class*="drop"]):not([class*="menu"]):not([class*="Flyout"]):not([class*="dialog"]):not([class*="float"]):not([class*="window"]):not([class*="lift"]):not([class*="bar"]):not([role*="banner"]):not([role*="bubble"]):not([role*="hover"]):not([role*="dialog"]):not([class*="grip"]):not([class*="flyout"]):not([class*="btn"]):not([class*="RES"]):not([id*="RES"]):not([class="locationPane"]):not([class="pdfViewer"]):not([class*="thumbnail"]):not([class*="toggle"]):not([id*="table"]) {
         background-color: transparent!important;
         background-image: none !important;
     } 
+    
+
 }
 
 
