@@ -9,7 +9,6 @@ information while making important data more vibrant.
 
 TODO:
 
-- Contextual background information missing (eg: Reddit logo)
 - Different color on firefox bars and drop down windows
 - Missing icons/images (facebook bar, youtube buttons, google maps
         buttons/images, google upper bar)
@@ -18,3 +17,5 @@ TODO:
 - Improve context menu colors
 - Some menus are transparent
 - Sometimes highlighting blacks out all text
+- Google docs looks bad
+- Optimize speed
