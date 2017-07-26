@@ -36,15 +36,10 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         -moz-box-shadow: none !important;
     }
    
-    a, section, ::after, ::before {
+    a, img, section, ::after, ::before {
         background-color: transparent !important;
     }
   
-    /* Background color for transparent images */
-    img {
-        background-color: #AAA !important;
-    }
-    
     /* Increase input visibility */
     input {
         color: #888 !important;
@@ -59,10 +54,10 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
     }
 
     /* Remove unecessary content */
-div:not([id*="image"]):not([class*="button"]):not([role*="button"]):not([id*="bar"]):not([id*="head"]):not([class*="drop"]):not([class*="menu"]):not([class*="Flyout"]):not([class*="dialog"]):not([class*="float"]):not([class*="window"]):not([class*="lift"]):not([class*="bar"]):not([role*="banner"]):not([role*="bubble"]):not([role*="hover"]):not([role*="dialog"]):not([class*="grip"]):not([class*="flyout"]):not([class*="btn"]):not([class*="RES"]):not([id*="RES"]):not([class="locationPane"]):not([class="pdfViewer"]):not([class*="thumbnail"]):not([class*="toggle"]):not([id*="table"]):not([role*="slider"]):not([class="_3ghu"]) {
+div:not([id*="image"]):not([class*="button"]):not([role*="button"]):not([id*="bar"]):not([id*="head"]):not([class*="drop"]):not([class*="menu"]):not([class*="Flyout"]):not([class*="dialog"]):not([class*="float"]):not([class*="window"]):not([class*="lift"]):not([class*="bar"]):not([role*="banner"]):not([role*="bubble"]):not([role*="hover"]):not([role*="dialog"]):not([class*="grip"]):not([class*="flyout"]):not([class*="btn"]):not([class*="RES"]):not([id*="RES"]):not([class="locationPane"]):not([class="pdfViewer"]):not([class*="thumbnail"]):not([class*="toggle"]):not([id*="table"]):not([role*="slider"]):not([class="_3ghu"]):not([class*="progress"]):not([class*="buffer"]) {
         background-color: transparent!important;
     } 
-   
+    
     span {
         background-color: transparent!important;
     }
