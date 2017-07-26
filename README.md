@@ -19,3 +19,4 @@ TODO:
 - Sometimes highlighting blacks out all text
 - Google docs looks bad
 - Optimize speed
+- Github colored text
