@@ -5,7 +5,7 @@
 regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") {
   
     /* CHANGE LINK COLOR HERE */
-    a:link * {
+    a:link, a:link * {
         color: #3cf !important;
         text-decoration: none !important;
         border: 0 !important;
