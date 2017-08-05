@@ -64,12 +64,16 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
     /* Window that pops up when you hover over links */
     .statuspanel-label {
         background: #000!important;
-        color: #eee !important
+        color: #eee !important;
     }
-  
-    /* Context menu */
+    
     menupopup#contentAreaContextMenu .scrollbox-innerbox {
         background-color: #000 !important;
+        color: #eee !important;
+    }
+
+    menupopup#contentAreaContextMenu menu, menupopup#contentAreaContextMenu menuitem {
+        background-color: #fff !important;
         color: #eee !important;
     }
 }
