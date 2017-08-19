@@ -12,6 +12,5 @@ TODO:
 - Improve general color theme
 - Volume slider hard to see (facebook, youtube)
 - Some menus are transparent
-- Google docs looks bad
 - Github colored text
 

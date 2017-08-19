@@ -5,7 +5,7 @@
 
 @-moz-document url-prefix("about:"),
 url-prefix("file://"),
-regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") {
+regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example|calendar.google.com|www.calendar.google.com|drive.google.com|www.drive.google.com)).*") {
 
     /* CHANGE LINK COLOR HERE */
     a:link,
@@ -67,6 +67,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
 
 
 
+
 /* FIREFOX BROWSER */
 
 @-moz-document url-prefix("chrome:") {
@@ -93,6 +94,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example)).*") 
         color: #eee !important;
     }
 }
+
 
 
 /* Youtube */
