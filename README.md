@@ -9,15 +9,9 @@ information while making important data more vibrant.
 
 TODO:
 
-- Different color on firefox bars and drop down windows
-- Missing icons/images (facebook bar, youtube buttons, google maps
-        buttons/images, google upper bar)
 - Improve general color theme
 - Volume slider hard to see (facebook, youtube)
-- Improve context menu colors
 - Some menus are transparent
-- Sometimes highlighting blacks out all text
 - Google docs looks bad
-- Optimize speed
 - Github colored text
 
