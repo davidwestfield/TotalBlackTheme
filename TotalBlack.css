@@ -1,6 +1,7 @@
 @namespace html url(http://www.w3.org/1999/xhtml);
 
 
+
 /* WHITELIST HERE */
 
 @-moz-document url-prefix("about:"),
@@ -50,20 +51,43 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example|calend
     }
 
     /* Remove unecessary content */
+    div:not([id*="image"]):not([class*="button"]):not([role*="button"]):not([id*="bar"]):not([id*="head"]):not([class*="drop"]):not([class*="menu"]):not([class*="Flyout"]):not([class*="dialog"]):not([class*="float"]):not([class*="window"]):not([class*="lift"]):not([class*="bar"]):not([role*="banner"]):not([role*="bubble"]):not([role*="hover"]):not([role*="dialog"]):not([class*="grip"]):not([class*="flyout"]):not([class*="btn"]):not([class*="RES"]):not([id*="RES"]):not([class="locationPane"]):not([class="pdfViewer"]):not([class*="thumbnail"]):not([class*="toggle"]):not([id*="table"]):not([role*="slider"]):not([class="_3ghu"]):not([class*="progress"]):not([class*="buffer"]):not([id*="preview"]) {
+        background-color: transparent!important;
+        background-image: none!important;
+    }
+
+    body {
+        background-image: none!important;
+    }
+
     a,
     img,
     section,
     span,
      ::after,
      ::before,
-    div:not([id*="image"]):not([class*="button"]):not([role*="button"]):not([id*="bar"]):not([id*="head"]):not([class*="drop"]):not([class*="menu"]):not([class*="Flyout"]):not([class*="dialog"]):not([class*="float"]):not([class*="window"]):not([class*="lift"]):not([class*="bar"]):not([role*="banner"]):not([role*="bubble"]):not([role*="hover"]):not([role*="dialog"]):not([class*="grip"]):not([class*="flyout"]):not([class*="btn"]):not([class*="RES"]):not([id*="RES"]):not([class="locationPane"]):not([class="pdfViewer"]):not([class*="thumbnail"]):not([class*="toggle"]):not([id*="table"]):not([role*="slider"]):not([class="_3ghu"]):not([class*="progress"]):not([class*="buffer"]):not([id*="preview"]) {
+    .stageWrapper * {
         background-color: transparent!important;
     }
 
-    body {
-        background-image: none !important;
+    /* Taken from pitch black and blue usertyle */
+    img,
+    .img,
+    [class*="Img"] {
+        opacity: 0.03 !important;
+    }
+
+    img:hover,
+    div:hover>img,
+    a:hover>img,
+    .img:hover,
+    [class*="Img"]:hover {
+        opacity: 1 !important;
     }
 }
+
+
+
 
 
 
@@ -94,6 +118,9 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example|calend
         color: #eee !important;
     }
 }
+
+
+
 
 
 
