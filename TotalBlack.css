@@ -2,6 +2,7 @@
 
 
 
+
 /* WHITELIST HERE */
 
 @-moz-document url-prefix("about:"),
@@ -65,26 +66,11 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example|calend
     section,
     span,
      ::after,
-     ::before,
-    .stageWrapper * {
+     ::before {
         background-color: transparent!important;
     }
-
-    /* Taken from pitch black and blue usertyle */
-    img,
-    .img,
-    [class*="Img"] {
-        opacity: 0.03 !important;
-    }
-
-    img:hover,
-    div:hover>img,
-    a:hover>img,
-    .img:hover,
-    [class*="Img"]:hover {
-        opacity: 1 !important;
-    }
 }
+
 
 
 
@@ -118,6 +104,7 @@ regexp("(ht|f)tps?://(?!([^/]*?\\.)?(example.whitelist.com|second.example|calend
         color: #eee !important;
     }
 }
+
 
 
 
